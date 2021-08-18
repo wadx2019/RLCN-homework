@@ -1,15 +1,14 @@
-# -*- coding:utf-8  -*-
-# Time  : 2021/5/31 下午4:14
-# Author: Yahui Cui
+# # This is homework.
+# # Load your model and submit this to Jidi
 
-"""
-# =================================== Important =========================================
-Notes:
-1. this agents is random agents , which can fit any env in Jidi platform.
-2. if you want to load .pth file, please follow the instruction here:
-https://github.com/jidiai/ai_lib/blob/master/examples/demo
-"""
 
+import numpy as np
+import os
+import argparse
+from common.utils import *
+import time
+
+#-------------------------------submission.py----------------------------#
 
 def my_controller(observation, action_space, is_act_continuous=False):
     agent_action = []
@@ -71,3 +70,35 @@ def sample(action_space_list_each, is_act_continuous):
                     each.extend(new_action)
                 player.append(each)
     return player
+    
+#-------------------------------submission.py----------------------------#
+
+
+if __name__ == '__main__':
+    # set env and algo
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--scenario', default="gridworld", type=str,
+                        help="gridworld/cliffwalking")
+    parser.add_argument('--algo', default="tabularq", type=str,
+                        help="tabularq/sarsa")
+
+    parser.add_argument('--reload_config', action='store_true')
+    args = parser.parse_args()
+
+    print("================== args: ", args)
+    print("== args.reload_config: ", args.reload_config)
+    env = make_env(args)
+    print('h',env.get_actionspace())
+    for i in range(100):
+        obs,done = env.reset(),False
+        tot_r = 0
+        while not done:
+            if env.env.n_player == 1:
+                action = [my_controller(obs[0],None)] # single-player
+            else:
+                raise NotImplementedError             # multi-player
+            obs,reward,done,_,info = env.step(action)
+            env.make_render()
+            time.sleep(0.1)
+            tot_r += reward
+        print('total_reward:',tot_r)
