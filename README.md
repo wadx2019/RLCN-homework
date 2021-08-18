@@ -4,7 +4,8 @@
 
 ## 平台地址
 [jidi_ai](http://www.jidiai.cn/)
-[rlchina](http://www.rlchina.org)
+
+[rlchina](http://rlchina.org)
 
 ## 目录结构
 ```
