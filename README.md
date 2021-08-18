@@ -1,6 +1,6 @@
 # RLCN-homework
 
-本项目针对刚上手强化学习、Python、Pytorch编程的新手而设立，内容为RLCN2021作业的baselines以及相关资源汇总
+本项目针对刚上手强化学习、Python、Pytorch编程的新手而设立，内容为RLCN2021作业的baselines以及相关资源汇总（内容简洁，大佬勿喷）
 
 ## 平台地址
 [作业提交](http://www.jidiai.cn/)
@@ -57,3 +57,4 @@
 ## 学习推荐
 - Pytorch: [pytorch 入门学习](https://www.bilibili.com/video/BV12741177Cu?from=search&seid=9649423320149926035)
 - Python: Python程序设计（第二版）董付国
+- RL: [DeepRL-Tutorials](https://github.com/qfettes/DeepRL-Tutorials)
