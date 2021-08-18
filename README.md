@@ -48,9 +48,9 @@
 - 打开新的test_main.py，将submission.py的代码全部复制粘贴于#------submission-------#分割线间 
 - 将其他在submission.py需要用到的文件全部复制到/SummerCourse2021/course?(?表示具体的课程号)/examples目录下
 - 在该目录下打开命令行
-- 将course?中README文件所提示的命令中的main.py改为test_main.py，输入该命令
-- 即可进行本地测试
-```
-例如course3中应改为
->python test_main.py --scenario classic_CartPole-v0 --algo dqn --reload_config 
-```
+- 将course?中README文件所提示的命令中的main.py改为test_main.py，并执行该命令
+  
+  例如：course3中应改为
+  >python test_main.py --scenario classic_CartPole-v0 --algo dqn --reload_config 
+- 本地测试完成
+
