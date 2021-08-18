@@ -3,9 +3,9 @@
 本项目针对刚上手强化学习、Python、Pytorch编程的新任而设立，内容为RLCN2021作业的baselines以及相关资源汇总
 
 ## 平台地址
-[jidi_ai](http://www.jidiai.cn/)
+[作业提交](http://www.jidiai.cn/)
 
-[rlchina](http://rlchina.org)
+[课程地址](http://rlchina.org)
 
 ## 目录结构
 ```
