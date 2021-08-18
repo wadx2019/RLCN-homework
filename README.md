@@ -34,7 +34,7 @@
 ## 环境搭建
 
 - 安装最新版Anaconda
-- 下载本项目中的requirements.txt文件
+- 下载本项目中的requirements.txt文件（课程给的有些包会和Anaconda已有的包冲突，这里做了删减）
 - 打开cmd，并进入到下载文件的目录
 - pip install -r requirements.txt（会需要比较久的时间安装第三方包）
 - 搭建完成
