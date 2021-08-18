@@ -54,3 +54,6 @@
   >python test_main.py --scenario classic_CartPole-v0 --algo dqn --reload_config 
 - 本地测试完成
 
+## 学习推荐
+- Pytorch: [pytorch 入门学习](https://www.bilibili.com/video/BV12741177Cu?from=search&seid=9649423320149926035)
+- Python: Python程序设计（第二版）董付国
