@@ -1,6 +1,6 @@
 # RLCN-homework
 
-本项目针对刚上手强化学习、Python、Pytorch编程的新任而设立，内容为RLCN2021作业的baselines以及相关资源汇总
+本项目针对刚上手强化学习、Python、Pytorch编程的新手而设立，内容为RLCN2021作业的baselines以及相关资源汇总
 
 ## 平台地址
 [作业提交](http://www.jidiai.cn/)
