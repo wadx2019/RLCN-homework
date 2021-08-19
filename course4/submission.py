@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # This is homework.
 # # Load your model and submit this to Jidi
 
@@ -127,6 +126,3 @@ def my_controller(observation, action_space, is_act_continuous=False):
     obs = observation
     action = agent.choose_action(obs)
     return action_from_algo_to_env(action)
-=======
-
->>>>>>> e6f138eff71139e2020f98fbd1756246e2d2d79c
